@@ -1,0 +1,7 @@
+com\example\batch\config\BatchConfig$1.class
+com\example\batch\BatchApplication.class
+com\example\batch\exception\ValidationException.class
+com\example\batch\model\Customer.class
+com\example\batch\config\BatchConfig.class
+com\example\batch\processor\CustomerProcessor.class
+com\example\batch\exception\RetryableException.class

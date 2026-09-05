@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:./batchdb
+    username: sa
+  batch:
+    jdbc:
+      initialize-schema: always
+    job:
+      enabled: true
