@@ -1,5 +1,16 @@
+server:
+  port: 8080
+
 management:
   endpoints:
     web:
       exposure:
-        include: health,metrics,prometheus
+        include: health,info,metrics,prometheus
+
+  endpoint:
+    health:
+      show-details: always
+
+  metrics:
+    tags:
+      application: order-servicehealth,metrics,prometheus
